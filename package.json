@@ -1,0 +1,33 @@
+{
+  "name": "shibin-you.github.io",
+  "version": "1.0.0",
+  "description": "[webpack结合express实现自动刷新](https://github.com/shibin-you/shibin-you.github.io/tree/master/examples/build/webpack-express)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-you/shibin-you.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shibin-you/shibin-you.github.io/issues"
+  },
+  "homepage": "https://github.com/shibin-you/shibin-you.github.io#readme",
+  "devDependencies": {
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0"
+  }
+}
