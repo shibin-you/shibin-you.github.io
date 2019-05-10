@@ -1,7 +1,7 @@
 {
   "name": "webpack-express",
   "version": "1.0.0",
-  "description": "webpack结合express实现自动刷新",
+  "description": "webpack结合koa实现自动刷新",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.30.0",
-    "webpack-dev-middleware": "^3.6.2",
-    "webpack-hot-middleware": "^2.24.4"
+    "koa-webpack": "^5.2.3",
+    "webpack": "^4.31.0"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.16.4"
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0"
   }
 }

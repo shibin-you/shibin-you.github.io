@@ -1,4 +1,4 @@
 if(module.hot) {
     module.hot.accept();
 }
-console.log(123)
+console.log(2123123)
