@@ -2,4 +2,4 @@
 ## 前端工具类
 [webpack结合express实现自动刷新](https://github.com/shibin-you/shibin-you.github.io/blob/master/docs/build/webpack-express.md)
 
-[webpack结合koa实现自动刷新](https://github.com/shibin-you/shibin-you.github.io/blob/master/docs/build/webpack-express.md)
+[webpack结合koa实现自动刷新](https://github.com/shibin-you/shibin-you.github.io/blob/master/docs/build/webpack-koa.md)
