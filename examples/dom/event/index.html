@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  .content{
+    padding: 25px;
+  }
+  </style>
+</head>
+<body>
+  <div id='content' class="content">
+      <div id='add' onclick=fn()>adddddd</div>
+  </div>
+
+</body>
+<script>
+// document.getElementById('add').addEventListener('click',function (e) {
+//   console.log('add')
+//   console.log(e)
+//   e.stopPropagation()
+// })
+document.getElementById('content').addEventListener('click',function (e) {
+  console.log('content')
+  console.log(e)
+})
+function fn() {
+  console.log('add');
+// event.stopPropagation()
+}
+</script>
+</html>
